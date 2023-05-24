@@ -1,0 +1,25 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Convert-body {
+    /* margin: auto;
+    max-width: 100vh; */
+    padding: 10px;
+    border: 2px #0000002f solid;
+    box-shadow: 0 1px 5px 4px #cacaca;
+    text-align: center;
+}
+
+.convert-title {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: rgba(207, 25, 25, 0.434);
+}
+
+/*# sourceMappingURL=style.css.map */

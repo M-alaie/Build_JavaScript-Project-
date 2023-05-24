@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="convert-body">
+       
+        <h3 class="text-center fs-5 mb-2">Type a value in any og the fields to convert between Lenght measurements</h3>
+        <div class="convert ">
+            <h4 class="text-center text-success py-2 my-2">length converter</h4>
+            <form class="convert-form">
+                <div class="row m-3">
+                    <label for="" class="col sm-2 col-form-label">Feet</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="feet" class="form-control "  >
+                    </div>
+                </div>
+                <div class="row m-3">
+                    <label for="" class="col sm-2 col-form-label">Meters</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="meter" class="form-control"  >
+                    </div>
+                </div>
+                <div class="row m-3">
+                    <label for="" class="col sm-2 col-form-label">Inches</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="inch" class="form-control"  oninput="convertToOther('inch',this.value)">
+                    </div>
+                </div>
+                <div class="row m-3">
+                    <label for="" class="col sm-2 col-form-label">CM</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="cm" class="form-control" oninput="convertToOther('cm',this.value)">
+                    </div>
+                </div>
+                <div class="row m-3">
+                    <label for="" class="col sm-2 col-form-label">Yard</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="yard" class="form-control"  oninput="convertToOther('yard',this.value)">
+                    </div>
+                </div>
+                <div class="row m-3">
+                    <label for="" class="col sm-2 col-form-label">Kilometers</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="kilo" class="form-control"  oninput="convertToOther('km',this.value)">
+                    </div>
+                </div>
+                <div class="row m-3">
+                    <label for="" class="col sm-2 col-form-label">Miles</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="miles" class="form-control"  oninput="convertToOther('miles',this.value)">
+                    </div>
+                </div>
+
+         
+
+
+
+                
+            </form>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

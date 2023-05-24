@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.convert{
+    border: 2px solid black;
+    border-radius:  5px;
+    margin-top:20px;
+    box-shadow:2px 8px 13px -1px;
+    background-color: #ddd
+}
+

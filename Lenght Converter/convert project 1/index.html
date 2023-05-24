@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Lenght Converter</title>
+  </head>
+  <body>
+    <div class="Convert-body">
+      <h2 class="convert-title">Lenght Converter</h2>
+      <div class="d-flex">
+        <input
+          type="text"
+          id="input"
+          class="form-control mx-2 text-center"
+          placeholder="input"
+        />
+        <span class="d-flex">=</span>
+        <input
+          type="text"
+          id="output"
+          class="form-control mx-2 text-center"
+          placeholder="output"
+        />
+      </div>
+      <div class="row mt-2">
+        <div class="col-12 col-md-6">
+          <select id="inputResualt" class="form-select text-danger">
+            <option value="meter">meter</option>
+            <option value="kilometer">kilometer</option>
+            <option value="cantimeter">centimeter</option>
+          </select>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <select id="outputResualt" class="form-select text-danger">
+            <option value="meter">meter</option>
+            <option value="kilometer">kilometer</option>
+            <option value="cantimeter">cantimeter</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
